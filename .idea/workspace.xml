@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62192987-0a0c-4c02-b809-1041a1e42607" name="Default Changelist" comment="" />
+    <list default="true" id="62192987-0a0c-4c02-b809-1041a1e42607" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +13,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -35,13 +42,42 @@
       <option name="presentableId" value="Default" />
       <updated>1597566494036</updated>
       <workItem from="1597566496305" duration="619000" />
+      <workItem from="1597567535279" duration="713000" />
     </task>
+    <task id="LOCAL-00001" summary="initialize spring boot project">
+      <created>1597567614372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597567614372</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update .gitignore file">
+      <created>1597567711929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597567711929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialize spring boot project" />
+    <MESSAGE value="update .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore file" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597567711177">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597567711177" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597567720331">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597567720331" />
     <state x="209" y="78" key="new project wizard" timestamp="1597566632529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
