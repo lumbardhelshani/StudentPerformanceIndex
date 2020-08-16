@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface PerformanceIndexService {
     List<PerformanceIndex> getPerformanceIndecesByStudentId(String studentId);
+
     void generateNewPerformanceIndeces();
 }
