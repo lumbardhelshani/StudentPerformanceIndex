@@ -15,9 +15,9 @@ $ git clone https://github.com/lumbardhelshani/StudentPerformanceIndex.git
 - JDK 1.8 or later
 - Maven 3 or later
 - MySQL 8.0
-Have a database named *meetings* created:
+Have a database named *student_performance_index* created:
 ```python
-create database notification;
+create database student_performance_index;
 ```
 **Note:** the database should be created under the user *root* with no password. If you want to change these default settings change them in *application.properties* file:
 ```python

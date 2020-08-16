@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62192987-0a0c-4c02-b809-1041a1e42607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/models/PerformanceIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/strategy/ActivityEmpahsisCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/strategy/GradeEmphasisCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/strategy/IndexCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/strategy/PresenceEmphasisCalculationStrategy.java" afterDir="false" />
+    <list default="true" id="62192987-0a0c-4c02-b809-1041a1e42607" name="Default Changelist" comment="add strategy to calculate performance index">
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/type/IndexStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -98,7 +95,7 @@
       <workItem from="1597566496305" duration="619000" />
       <workItem from="1597567535279" duration="1447000" />
       <workItem from="1597575022824" duration="3003000" />
-      <workItem from="1597586388979" duration="765000" />
+      <workItem from="1597586388979" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="initialize spring boot project">
       <created>1597567614372</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597586627689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add strategy to calculate performance index">
+      <created>1597587193376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597587193376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +151,8 @@
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="add runner &amp; application properties" />
     <MESSAGE value="add security package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add security package" />
+    <MESSAGE value="add strategy to calculate performance index" />
+    <option name="LAST_COMMIT_MESSAGE" value="add strategy to calculate performance index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="668" y="308" key="#Assign_Data_Sources" timestamp="1597576929247">
@@ -158,10 +163,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597587153245" />
-    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597586626929">
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597587277754">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597586626929" />
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1597587277754" />
     <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1597578047269">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -198,10 +203,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1597586892916" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597586439567">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597587209052">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597586439567" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597587209052" />
     <state x="209" y="78" key="new project wizard" timestamp="1597566632529">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
